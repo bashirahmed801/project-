@@ -1,0 +1,130 @@
+.navbar{background-color: black !important;
+    position: sticky !important;
+    top: 0px !important;}
+
+.nav-bg{color: white !important;
+padding: 0px 20px !important;
+text-transform: capitalize;}
+.nav-bg:hover{background-color: antiquewhite !important;
+color: black !important;}
+.icon-erea{height: 30px;
+width: 30px;}
+
+.coloring{color:white !important;}
+/* para-section  */
+
+.para-section{height: 70vh;
+width: 90%;
+padding: 20px;
+margin: 0 auto;}
+
+.para-section h1{padding: 20px;
+text-transform: capitalize;
+text-align: center;}
+.font11{font-size: 20px;}   
+.para-section p{font-size: 20px;
+text-transform: capitalize;}
+
+/* card.section */
+.cardsection{
+    padding: 40px;
+    display: flex;
+flex-direction: row;
+justify-content: space-evenly;}
+.card-body{text-align: center;
+text-decoration: none !important;}
+
+/* form-section */
+.form-section{margin-top: 200px;
+background-color: black;}
+    h1,h4{text-align: center;
+    color: white;}
+h1{padding-top: 150px;}
+.sept{margin-left:320px;
+    width: 50%;
+text-decoration: none;}
+
+/* cards-section  */
+.cards-2{display: flex;
+flex-direction: row;
+justify-content: center;
+margin-top: 100px;
+}
+/* 
+contect-section */
+.contect-section{ height: 60vh;
+    width: 100%;
+   box-shadow: -5px -5px 5px ;}
+
+
+.need{width: 30%;
+margin-left: 600px;
+position: relative;
+bottom: 70px;}
+
+.contect{text-align: center;
+text-transform: capitalize;
+margin-top: 70px;}
+
+   .location1{height: 30vh;
+width: 20%;
+position: relative;
+top: 180px;
+left: 200px;}
+
+.send{position: absolute;
+right: 320px;}
+.send-to{background-color: aqua;}
+.send-to:hover{background-color: black;
+color: aliceblue;}
+
+
+/* media-screen-section  */
+
+@media screen and (max-width:800px) {
+    body{display: flex;
+        flex-direction: column;
+    justify-content: space-between;}
+    
+}
+/* card-1 section */
+ @media screen and (max-width:800px){
+    .cardsection{display: flex;
+    flex-direction: column;
+margin-top: 170px;}
+     
+}
+@media screen and (max-width:400px){
+    .cardsection{display: flex;
+    flex-direction: column;
+margin-top: 600px;}
+
+/* form-section */
+@media screen and (max-width:500px) {
+    .sept{margin-left: 0;
+    width: 100%;}
+    
+}
+/* card-2 section */
+@media screen and (max-width:800px) {
+    .cards-2{display: flex;
+    flex-direction: column;}
+    
+}
+
+/* contect section */
+
+@media screen and (max-width:800px) {
+    .need{width: 100%;
+         position: relative;
+    right: 600px;
+top: 40px;}
+}
+@media screen and (max-width:800px) {
+    .location1,.detail{width: 30%;
+         position: relative;
+    top: 10px;
+    right: 180px;
+}
+}
+
